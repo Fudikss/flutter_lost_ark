@@ -1,0 +1,31 @@
+name: lost_ark_flutter
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  html: ^0.15.4
+  provider:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  dio:
+  carousel_slider:
+  cached_network_image:
+  url_launcher:
+  intl:
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/PNG/
+    - assets/GIF/
